@@ -18,7 +18,7 @@ export const MenuItem: FC<MenuItemProps> = ({
   weight,
 }) => {
   return (
-    <div className="w-[300px] shadow-xl overflow-hidden rounded-2xl">
+    <div className="w-[310px] shadow-xl overflow-hidden rounded-2xl">
       <div className="relative overflow-hidden  mb-4">
         <img
           className="object-cover h-[200px] w-full"
