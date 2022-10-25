@@ -8,7 +8,7 @@ interface MenuListProps {
 
 export const MenuList: FC<MenuListProps> = ({ items }) => {
   return (
-    <div className="flex gap-10 flex-wrap">
+    <div className="flex gap-10 flex-wrap justify-center">
       {items.map(({ image, ...pizza }) => (
         <MenuItem
           key={pizza.id}

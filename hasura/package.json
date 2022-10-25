@@ -1,0 +1,12 @@
+{
+  "name": "hasura",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "hasura console"
+  },
+  "devDependencies": {
+    "hasura-cli": "^2.13.0"
+  }
+}
