@@ -4,7 +4,7 @@
   "description": "",
   "license": "ISC",
   "scripts": {
-    "start": "hasura console"
+    "start": "hasura console --admin-secret myadminsecretkey"
   },
   "devDependencies": {
     "hasura-cli": "^2.13.0"
