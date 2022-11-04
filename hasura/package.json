@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "hasura-cli": "^2.13.0"
+  },
+  "dependencies": {
+    "ra-data-hasura": "^0.5.3"
   }
 }

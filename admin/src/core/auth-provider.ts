@@ -18,6 +18,8 @@ export const authProvider = {
     }
 
     localStorage.setItem(JWT_ADMIN_TOKEN, data.adminLogin.accessToken);
+
+    return Promise.resolve();
   },
   logout: () => {
     localStorage.removeItem(JWT_ADMIN_TOKEN);

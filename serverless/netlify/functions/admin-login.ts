@@ -6,7 +6,7 @@ import { AdminLoginInput } from "../common/sdk";
 
 const invalidUserOrPassword = {
   statusCode: 404,
-  body: JSON.stringify({ message: "User not found or password invalid" }),
+  body: JSON.stringify({ message: "User not found or password is invalid" }),
 };
 
 const handler: Handler = async (event, context) => {
